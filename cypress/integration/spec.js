@@ -1,3 +1,3 @@
-describe('page', () => {
-  it('works', () => {})
+it('index', () => {
+  cy.visit('index.html')
 })
