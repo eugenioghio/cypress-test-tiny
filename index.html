@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    
+<body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+    $.ajax({
+        async: false,
+        type: "GET",
+        url: "https://433c3205-5333-496a-93fc-1eee61d7d976.mock.pstmn.io/tiny",
+        success: function (data) {
+            console.log("TEST AJAX RESPONSE BUT WONT SHOW IN CONSOLE", data);
+        }
+    });
+</script>
+</body>
+</html>
